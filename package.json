@@ -1,0 +1,24 @@
+{
+  "name": "devtinder_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/app.js",
+    "dev":"nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anulmehta48/DevTinder_Backend.git"
+  },
+  "author": "Anul Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anulmehta48/DevTinder_Backend/issues"
+  },
+  "homepage": "https://github.com/anulmehta48/DevTinder_Backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
