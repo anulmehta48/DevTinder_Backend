@@ -1,12 +1,14 @@
 const express=require("express");
 const app=express();
-
-app.use("/hello",(req,res)=>{
-    res.send("Hello Hello Hello!!!")
+ 
+app.get("/user",(req,res)=>{
+    res.send({"fisrtname":"Anul","Lastname":"Mehta"})
 })
-
-app.use("/test",(req,res)=>{
-    res.send("Hello from the server !!!!!!!!")
+app.post("/user",(req,res)=>{
+    res.send("Data Successfully saved to the Database")
+})
+app.use("/",(req,res)=>{
+    res.send("Hello Hello Hello!!!")
 })
 
 app.listen(7777,()=>{
